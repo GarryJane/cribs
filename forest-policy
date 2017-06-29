@@ -1,0 +1,15 @@
+!
+!
+access-list 163 remark Perceva_av
+access-list 163 permit ip any 178.21.68.76 0.0.0.3
+access-list 163 permit ip 178.21.68.76 0.0.0.3 any
+
+!
+class-map match-all Perceva_av
+ match access-group 163
+!
+policy-map Eridan1
+ class Perceva_av
+ service-policy 5M
+!
+
