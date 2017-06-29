@@ -1,0 +1,5 @@
+Branches:
+
+git checkout bootstrap - переключение на ветку bootstrap
+git commit -a -m 'Вёрстка на Bootstrap [bootstrap]'
+
