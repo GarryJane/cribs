@@ -1,0 +1,8 @@
+ip dhcp class city_235m
+ relay agent information
+      relay-information hex 0106000407ce010a020d010b3137322e31362e302e3131
+!
+ip dhcp pool captel-static
+ class city_235m
+  address range 94.243.168.59 94.243.168.59
+!
