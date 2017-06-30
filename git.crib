@@ -3,3 +3,8 @@ Branches:
 git checkout bootstrap - переключение на ветку bootstrap
 git commit -a -m 'Вёрстка на Bootstrap [bootstrap]'
 
+LOGS:
+	git log --all --pretty=format:"%h %cd %s (%an)" --since='7 days ago'
+	git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short
+!!!	gitk
+
